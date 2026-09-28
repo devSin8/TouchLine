@@ -49,21 +49,21 @@ The formula follows `Player rating system.txt`:
 - Position weights combine those pillars for ST, W, CM, FB and CB; the penalty is subtracted. Player raw scores are averaged across appearances weighted by minutes, then converted to a percentile among rated players in the same age group. Ties share their midpoint rank.
 - Pillar percentiles use same-age-group, same-position peers.
 
-The formula sheet does not provide weights for GK or missing positions. The app therefore uses a clearly labeled, provisional goalkeeper proxy: `0.40 × passing/distribution + 0.60 × defensive actions − the same discipline and ball-loss penalty`. Defensive actions use aerial duels won, duels won, recoveries, clearances and interceptions per 90. GK percentiles compare players only to same-age-group goalkeepers. The source has no saves or shots-faced fields, so the proxy does not measure shot-stopping; team goals conceded is deliberately excluded because it reflects the whole defense. Missing-position players remain **Unrated**. The CSV contains one missing position and 26 GK appearances. The source has 365 rows, 184 distinct player/team/age-group identities, and mixed date formats; imported dates are normalized to ISO. One player-match row is duplicated exactly in the supplied CSV, so the importer skips that duplicate and stores 364 unique appearances.
+The app uses a separate clearly labeled, provisional goalkeeper proxy: `0.40 × passing/distribution + 0.60 × defensive actions − the same discipline and ball-loss penalty`. Defensive actions use aerial duels won, duels won, recoveries, clearances and interceptions per 90. GK percentiles compare players only to same-age-group goalkeepers. The source has no saves or shots-faced fields, so the proxy does not measure shot-stopping; team goals conceded is deliberately excluded because it reflects the whole defense. Missing-position players remain **Unrated**. The CSV contains one missing position and 26 GK appearances. The source has 365 rows, 184 distinct player/team/age-group identities, and mixed date formats; imported dates are normalized to ISO. One player-match row is duplicated exactly in the supplied CSV, so the importer skips that duplicate and stores 364 unique appearances.
 
-The percentile is the comparable headline rating. Match scores are shown as raw formula composites because the supplied formula does not define a conversion to a 1–10 scale. This model does not adjust for opponent strength, team context or data-provider quality, and small cohorts can move percentiles substantially.
+The percentile is the comparable headline rating. Match scores are shown as raw formula composites because the supplied formula that I used does not define a conversion to a 1–10 scale. This model does not adjust for opponent strength, team context or data-provider quality, and small cohorts can move percentiles substantially.
 
 ## Project approach note
 
-### What we tried and kept
+### What I tried and kept
 
-We used the position-aware rating method supplied in `Player rating system.txt`. The app first calculates attacking, passing and defending contributions from per-90 event rates, applies the appropriate position weights and subtracts the stated penalties. It then averages each player's match scores weighted by minutes and presents an age-group percentile. Pillar percentiles use same-age-group, same-position peers. This keeps the implementation tied to the requested method and makes the ratings easier to explain on player profiles.
+I used the position-aware rating method supplied in `Player rating system.txt`. The app first calculates attacking, passing and defending contributions from per-90 event rates, applies the appropriate position weights and subtracts the stated penalties. It then averages each player's match scores weighted by minutes and presents an age-group percentile. Pillar percentiles use same-age-group, same-position peers. This keeps the implementation tied to the requested method and makes the ratings easier to explain on player profiles.
 
-The source did not include a goalkeeper formula. We added a clearly labeled provisional proxy based on distribution and defensive actions, with the same discipline and ball-loss penalties, and compare goalkeepers within their age group. We chose not to treat team goals conceded as an individual keeper statistic. Since the CSV has no saves or shots faced, the proxy cannot assess shot-stopping and should be replaced or refined if those fields become available.
+I also added a clearly labeled provisional proxy based on distribution and defensive actions, with the same discipline and ball-loss penalties, and compare goalkeepers within their age group. We chose not to treat team goals conceded as an individual keeper statistic. Since the CSV has no saves or shots faced, the proxy cannot assess shot-stopping and should be replaced or refined if those fields become available.
 
-### What we discarded
+### What I discarded
 
-We considered using a different, generic player score, but kept the provided position-weighted system because it was the assignment's stated basis and better reflects that roles value different contributions. We also avoided converting raw composites to a 1–10 score: the supplied method does not define that conversion. The app instead shows percentiles as the headline comparison and keeps the match-level composite clearly identified as a raw score.
+I considered using a different, generic player score, but kept the provided position-weighted system because it was the assignment's stated basis and better reflects that roles value different contributions. I also avoided converting raw composites to a 1–10 score: the supplied method does not define that conversion. The app instead shows percentiles as the headline comparison and keeps the match-level composite clearly identified as a raw score.
 
 ### Data observations
 
@@ -73,11 +73,11 @@ We considered using a different, generic player score, but kept the provided pos
 - Dates are normalized during CSV parsing. Missing positions are left unrated when no position weights are available.
 - The available goalkeeper event fields do not include saves or shots faced, which limits any keeper rating based on this dataset.
 
-### Where we got stuck and how we resolved it
+### Where I got stuck and how I resolved it
 
-The main implementation challenges were connecting the app to Supabase and protecting the CSV import route. During setup, the Supabase URL included a REST API path where the client expected the project URL. During import, repeated player-match rows caused a PostgreSQL upsert conflict because one command could affect the same target row twice. We corrected the project URL configuration and deduplicated rows before upserting. We then added admin sign-in and a server-side session check so the import API itself requires authentication, rather than relying only on hiding the upload control in the interface.
+The main implementation challenges were connecting the app to Supabase and protecting the CSV import route. During setup, the Supabase URL included a REST API path where the client expected the project URL. During import, repeated player-match rows caused a PostgreSQL upsert conflict because one command could affect the same target row twice. I corrected the project URL configuration and deduplicated rows before upserting, and then added admin sign-in and a server-side session check so the import API itself requires authentication, rather than relying only on hiding the upload control in the interface.
 
-### What we would do with one more week
+### What I would do with one more week
 
 1. Ask coaches or analysts to review the rating weights, especially the provisional goalkeeper proxy, and document any approved changes.
 2. Add data-quality checks and an import summary for invalid dates, missing positions, duplicate rows and unexpected values before writing to Supabase.
@@ -87,7 +87,7 @@ The main implementation challenges were connecting the app to Supabase and prote
 
 ### Tools and learning
 
-ChatGPT was used to help clarify the requirements, discuss implementation choices and explain setup and debugging steps. Codex was used to work in the project code, implement the app features, investigate issues and update the project documentation. The project helped build practical understanding of Supabase schemas and relationships, environment-based connections, and the path from parsing a CSV file to validating and storing its records in a database.
+ChatGPT Codex was used to implement the app features, investigate issues and update the project documentation. The project helped build practical understanding of Supabase schemas and relationships, environment-based connections, and the path from parsing a CSV file to validating and storing its records in a database.
 
 ## Project structure
 
