@@ -31,11 +31,11 @@ For Vercel, set all four variables in the project's environment settings and red
 
 ## Data model
 
-- `players` stores player identity, team, age group and position. The unique key is name + age group + team because the source has no provider player ID.
-- `matches` stores fixture identity, date, competition and the home/away clubs.
-- `appearances` stores one player's statistics and match-context result for one fixture. It references a player and a match, and `(match_id, player_id)` is unique.
+- `players` stores a player's identity, team, age group and position. Its unique key is `(player_name, age_group, team)`: the CSV does not provide a stable provider player ID, and a name alone may not distinguish players on different teams or in different age groups.
+- `matches` stores fixture-level details once: match ID, date, competition and home/away teams.
+- `appearances` stores each player's statistics and match context for one fixture. It references both a player and a match, and `(match_id, player_id)` is unique so the same player cannot be imported twice for the same fixture.
 
-This avoids repeating fixture/player details for each event row while retaining each row's team-specific opponent, venue and score.
+This is a small normalized relational schema. It avoids repeating player identity and fixture metadata for every event row, keeps match and player facts in their natural places, and still preserves appearance-specific details such as opponent, venue, score and performance stats. Foreign keys keep appearance records connected to valid players and matches; indexes support player-history and date-based reads. The CSV importer resolves or creates the player and match records before upserting appearances. The Next.js server accesses Supabase with the service-role key, so that key must remain private.
 
 ## Rating method
 
@@ -52,6 +52,42 @@ The formula follows `Player rating system.txt`:
 The formula sheet does not provide weights for GK or missing positions. The app therefore uses a clearly labeled, provisional goalkeeper proxy: `0.40 × passing/distribution + 0.60 × defensive actions − the same discipline and ball-loss penalty`. Defensive actions use aerial duels won, duels won, recoveries, clearances and interceptions per 90. GK percentiles compare players only to same-age-group goalkeepers. The source has no saves or shots-faced fields, so the proxy does not measure shot-stopping; team goals conceded is deliberately excluded because it reflects the whole defense. Missing-position players remain **Unrated**. The CSV contains one missing position and 26 GK appearances. The source has 365 rows, 184 distinct player/team/age-group identities, and mixed date formats; imported dates are normalized to ISO. One player-match row is duplicated exactly in the supplied CSV, so the importer skips that duplicate and stores 364 unique appearances.
 
 The percentile is the comparable headline rating. Match scores are shown as raw formula composites because the supplied formula does not define a conversion to a 1–10 scale. This model does not adjust for opponent strength, team context or data-provider quality, and small cohorts can move percentiles substantially.
+
+## Project approach note
+
+### What we tried and kept
+
+We used the position-aware rating method supplied in `Player rating system.txt`. The app first calculates attacking, passing and defending contributions from per-90 event rates, applies the appropriate position weights and subtracts the stated penalties. It then averages each player's match scores weighted by minutes and presents an age-group percentile. Pillar percentiles use same-age-group, same-position peers. This keeps the implementation tied to the requested method and makes the ratings easier to explain on player profiles.
+
+The source did not include a goalkeeper formula. We added a clearly labeled provisional proxy based on distribution and defensive actions, with the same discipline and ball-loss penalties, and compare goalkeepers within their age group. We chose not to treat team goals conceded as an individual keeper statistic. Since the CSV has no saves or shots faced, the proxy cannot assess shot-stopping and should be replaced or refined if those fields become available.
+
+### What we discarded
+
+We considered using a different, generic player score, but kept the provided position-weighted system because it was the assignment's stated basis and better reflects that roles value different contributions. We also avoided converting raw composites to a 1–10 score: the supplied method does not define that conversion. The app instead shows percentiles as the headline comparison and keeps the match-level composite clearly identified as a raw score.
+
+### Data observations
+
+- The supplied file has 365 data rows and 184 distinct player/team/age-group identities.
+- There is one exact duplicate player-match row. The importer skips it, leaving 364 unique appearances to store.
+- The file contains both U15 and U17 players, mixed date formats, one player with no listed position and 26 goalkeeper appearances.
+- Dates are normalized during CSV parsing. Missing positions are left unrated when no position weights are available.
+- The available goalkeeper event fields do not include saves or shots faced, which limits any keeper rating based on this dataset.
+
+### Where we got stuck and how we resolved it
+
+The main implementation challenges were connecting the app to Supabase and protecting the CSV import route. During setup, the Supabase URL included a REST API path where the client expected the project URL. During import, repeated player-match rows caused a PostgreSQL upsert conflict because one command could affect the same target row twice. We corrected the project URL configuration and deduplicated rows before upserting. We then added admin sign-in and a server-side session check so the import API itself requires authentication, rather than relying only on hiding the upload control in the interface.
+
+### What we would do with one more week
+
+1. Ask coaches or analysts to review the rating weights, especially the provisional goalkeeper proxy, and document any approved changes.
+2. Add data-quality checks and an import summary for invalid dates, missing positions, duplicate rows and unexpected values before writing to Supabase.
+3. Add automated unit tests for CSV parsing, duplicate handling, per-90 calculations, position weights and percentile ties.
+4. Review the schema and access policies with the intended deployment model, and add operational protections such as login rate limiting and a more complete admin account flow if uploads remain in use.
+5. Validate the deployed app with the production environment variables and compare a sample of database records and ratings against hand-calculated examples.
+
+### Tools and learning
+
+ChatGPT was used to help clarify the requirements, discuss implementation choices and explain setup and debugging steps. Codex was used to work in the project code, implement the app features, investigate issues and update the project documentation. The project helped build practical understanding of Supabase schemas and relationships, environment-based connections, and the path from parsing a CSV file to validating and storing its records in a database.
 
 ## Project structure
 
