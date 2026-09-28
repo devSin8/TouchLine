@@ -42,9 +42,9 @@ export type MatchEvent = {
 };
 
 export type ScoredEvent = MatchEvent & {
-  attack: number;
-  passing: number;
-  defending: number;
+  pillar1: number;
+  pillar2: number;
+  pillar3: number;
   penalty: number;
   raw_rating: number | null;
 };
@@ -59,9 +59,10 @@ export type Player = {
   minutes: number;
   rating: number | null;
   raw_rating: number | null;
-  attack_percentile: number | null;
-  passing_percentile: number | null;
-  defending_percentile: number | null;
+  pillar1_percentile: number | null;
+  pillar2_percentile: number | null;
+  pillar3_percentile: number | null;
+  pillar_names: [string, string, string];
   events: ScoredEvent[];
   totals: Record<string, number>;
 };

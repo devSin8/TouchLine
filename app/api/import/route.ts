@@ -2,11 +2,13 @@ import { NextResponse } from "next/server";
 import { revalidatePath } from "next/cache";
 import { parseCsv } from "@/lib/csv";
 import { persistEvents } from "@/lib/data";
+import { hasAdminSession } from "@/lib/admin-auth";
 
 export const runtime = "nodejs";
 
 export async function POST(request: Request) {
   try {
+    if (!hasAdminSession(request)) return NextResponse.json({ error: "Sign in as an admin before importing data." }, { status: 401 });
     const form = await request.formData();
     const file = form.get("file");
     if (!(file instanceof File)) return NextResponse.json({ error: "Choose a CSV file to import." }, { status: 400 });

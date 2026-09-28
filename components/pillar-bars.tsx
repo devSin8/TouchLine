@@ -2,9 +2,9 @@ import type { Player } from "@/lib/types";
 
 export function PillarBars({ player }: { player: Player }) {
   const pillars = [
-    { name: "Attacking", score: player.attack_percentile, color: "mint", note: "Goals, assists, shots on target & dribbling" },
-    { name: "Passing & creation", score: player.passing_percentile, color: "blue", note: "Progression, crossing & pass completion" },
-    { name: "Defending", score: player.defending_percentile, color: "violet", note: "Tackles, interceptions, regains & duels" },
+    { name: player.pillar_names[0], score: player.pillar1_percentile, color: "mint", note: player.position === "GK" ? "Pass completion, progression & distribution" : "Goals, assists, shots on target & dribbling" },
+    { name: player.pillar_names[1], score: player.pillar2_percentile, color: "blue", note: player.position === "GK" ? "Aerial duels, regains, clearances & interceptions" : "Progression, crossing & pass completion" },
+    { name: player.pillar_names[2], score: player.pillar3_percentile, color: "violet", note: player.position === "GK" ? "Lower possession-loss and discipline penalties score higher" : "Tackles, interceptions, regains & duels" },
   ];
   return <div className="pillar-grid">{pillars.map((pillar) => <article className={`pillar-card ${pillar.color}`} key={pillar.name}>
     <div className="pillar-top"><span>{pillar.name}</span><b>{pillar.score === null ? "—" : `${Math.round(pillar.score)}th`}<small>{pillar.score === null ? "" : " percentile"}</small></b></div>

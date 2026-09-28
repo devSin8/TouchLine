@@ -37,10 +37,11 @@ export default async function PlayerPage({ params }: { params: Promise<{ playerI
           <div className="profile-meta"><span className="team-mark">{player.team.slice(0, 1)}</span><b>{player.team}</b><span className="meta-divider" />{player.position ?? "Position unavailable"}<span className="meta-divider" />{player.appearances} {player.appearances === 1 ? "appearance" : "appearances"}</div>
           <div className="profile-stats"><div><span>TOTAL MINUTES</span><b>{number(player.minutes)}<small> min</small></b></div><div><span>MATCHES PLAYED</span><b>{player.appearances}<small> games</small></b></div><div><span>PER 90 MINUTES</span><b>{number(p90.goals)}<small> goals</small></b></div></div>
         </div>
-        <div className="profile-rating"><RatingRing rating={player.rating} large /><div><span>AGE GROUP RATING</span><b>{player.rating === null ? "Not rated" : `${Math.round(player.rating)}th percentile`}</b><small>{player.age_group} · all rated positions</small></div></div>
+        <div className="profile-rating"><RatingRing rating={player.rating} large /><div><span>{player.position === "GK" ? "GOALKEEPER PROXY RATING" : "AGE GROUP RATING"}</span><b>{player.rating === null ? "Not rated" : `${Math.round(player.rating)}th percentile`}</b><small>{player.position === "GK" ? `${player.age_group} · compared with goalkeepers` : `${player.age_group} · all rated positions`}</small></div></div>
       </section>
 
       <section className="section-block"><div className="section-heading"><div><div className="eyebrow muted">PERFORMANCE PROFILE</div><h2>How the rating comes together</h2></div><span className="peer-note">Compared to {player.position ?? "position"} peers</span></div>
+        {player.position === "GK" && <div className="score-explainer">Proxy rating: the source has no saves or shots-faced data, so this reflects distribution and defensive actions rather than shot-stopping. Team goals conceded are excluded.</div>}
         {scored ? <PillarBars player={player} /> : <div className="notice-card"><b>Rating unavailable for this position</b><p>The supplied formula does not include weights for {player.position || "an unlisted position"}. Statistics and match history are still available.</p></div>}
       </section>
 
