@@ -1,0 +1,366 @@
+match_id,match_date,competition,age_group,home_team,away_team,team,opponent,venue,goals_for,goals_against,player_name,position,minutes_played,touches,passes_attempted,passes_completed,progressive_passes,crosses,dribbles_attempted,dribbles_completed,shots,shots_on_target,goals,assists,duels_won,duels_lost,aerial_duels_won,aerial_duels_lost,tackles,interceptions,recoveries,clearances,fouls_committed,fouls_won,yellow_cards,red_cards,possession_lost
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,atletico madrid,FC Barcelona,away,1,2,Dani Fuster,W,90,57,39,28,6,3,6,0,1,0,0,0,1,13,0,2,1,1,13,0,1,3,0,0,17
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Getafe CF,Real Madrid,away,0,9,Bruno Bermejo,CB,90,28,14,12,5,1,0,0,1,0,0,0,4,5,3,5,3,3,8,3,1,3,0,0,3
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,Real Madrid,RCD Espanyol,home,3,1,Ignacio Delgado,CM,90,83,66,62,12,4,1,1,2,0,0,0,10,8,1,0,5,2,7,1,1,3,0,0,11
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,Getafe CF,RCD Espanyol,home,1,2,Aitor Escudero,W,90,39,24,18,2,2,4,4,6,2,0,1,6,6,1,1,1,1,9,0,1,4,0,0,8
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,RCD Espanyol,Girona FC,home,3,1,Leo Carrasco,CM,90,59,48,45,14,0,4,2,1,1,0,0,3,6,3,1,2,4,5,2,3,2,0,0,7
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,Real Madrid,FC Barcelona,away,2,2,Gonzalo Escudero,CB,90,74,63,50,1,1,1,0,1,0,0,0,7,7,2,2,3,3,9,5,0,0,0,0,17
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Atletico Madrid,Girona FC,home,2,2,Asier Ibarra,ST,78,22,11,10,3,2,1,1,1,1,1,0,5,5,5,3,0,2,4,1,1,2,0,0,2
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Real Madrid,Getafe CF,home,9,0,Aitor Ruiz,CB,90,92,67,63,7,0,0,0,0,0,0,0,14,1,2,1,0,0,8,10,1,1,0,0,7
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,atletico madrid,FC Barcelona,away,1,2,Pau Solano,CM,90,34,17,15,7,1,5,1,1,0,0,0,9,4,2,2,3,4,11,0,2,3,0,0,8
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Girona FC,Atletico Madrid,away,2,2,Roque Rivas,FB,25,13,12,10,2,2,0,0,0,0,0,1,0,1,0,0,4,1,3,0,1,0,0,0,2
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,Getafe CF,RCD Espanyol,home,1,2,Mateo Cordero,FB,12,2,1,1,0,0,0,0,0,0,0,0,2,1,0,0,2,0,0,0,1,1,0,0,0
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,FC Barcelona,Getafe CF,away,3,1,Arnau Fuster,CM,68,41,29,27,11,3,3,0,3,0,0,0,12,3,0,0,3,1,3,0,1,2,0,0,7
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Atletico Madrid,Girona FC,home,2,2,Sergi Alonso,CB,90,76,60,56,6,0,2,2,0,0,0,0,8,3,5,4,2,3,7,2,1,1,0,0,6
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Getafe CF,Atletico Madrid,away,0,2,Manu Andrade,ST,90,18,9,7,0,0,3,3,4,1,0,0,5,6,1,0,0,1,1,0,1,2,0,0,3
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,Real Madrid,FC Barcelona,away,2,2,Unai Puig,CB,90,48,32,30,5,1,1,1,0,0,0,0,9,5,2,2,5,2,8,3,0,1,0,0,5
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,RCD Espanyol,Real Madrid,away,1,3,Adrian Quintana,CB,90,45,34,30,2,0,2,0,0,0,0,0,0,3,1,4,2,1,7,2,5,0,0,0,8
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Atletico Madrid,Real Madrid,away,0,1,Samuel Campos,FB,90,45,31,26,7,1,3,1,1,0,0,0,7,2,0,1,2,1,4,1,2,1,0,0,9
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,RCD Espanyol,Real Madrid,away,1,3,Unai Prieto,FB,72,31,24,19,7,1,1,1,1,0,0,0,6,10,2,1,3,2,8,1,1,1,0,0,5
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Getafe CF,Real Madrid,away,0,9,Nico Vidal,CM,65,50,45,38,4,1,2,0,0,0,0,0,6,6,2,1,0,1,5,0,2,1,0,0,9
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Getafe CF,Real Madrid,away,0,9,Sergi Serrano,ST,25,8,5,4,0,0,0,0,0,0,0,0,0,2,1,3,1,0,0,0,0,1,0,0,1
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,Getafe CF,RCD Espanyol,home,1,2,Martin Bermejo,W,90,49,28,21,4,2,8,3,3,3,0,0,5,4,0,3,0,2,8,1,3,2,0,0,13
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,RCD Espanyol,Girona FC,home,3,1,Erik Galan,CM,25,27,25,24,4,0,2,0,0,0,0,0,1,2,0,0,0,0,1,0,1,0,0,0,3
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,FC Barcelona,Real Madrid,away,1,1,Leo Cuesta,CB,65,46,32,28,3,2,1,1,1,0,0,0,8,4,2,2,0,3,6,3,3,0,0,0,5
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,RCD Espanyol,Girona FC,home,3,1,Ignacio Puig,W,25,16,9,8,0,3,3,3,0,0,0,0,1,3,0,0,0,1,2,1,1,0,0,0,3
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Atletico Madrid,Real Madrid,away,0,1,Biel Fuster,CM,90,52,45,42,9,1,2,2,0,0,0,0,5,9,1,0,6,1,4,0,1,3,0,0,5
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,Girona FC,FC Barcelona,home,0,4,Manu Barrios,CB,78,41,33,27,2,0,0,0,1,0,0,0,7,1,5,6,2,1,7,2,2,1,0,0,8
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,Getafe CF,FC Barcelona,home,1,3,Izan Carrasco,CB,90,58,43,37,7,0,0,0,1,0,0,0,7,5,2,4,4,3,3,13,0,3,0,0,10
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,Real Madrid,FC Barcelona,away,2,2,Erik Mena,FB,78,67,53,48,7,1,4,1,1,0,0,0,3,9,1,4,2,1,7,1,0,2,0,0,9
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,RCD Espanyol,Getafe CF,away,2,1,Hugo Prieto,FB,65,28,19,14,5,4,1,0,0,0,0,0,2,6,0,1,4,1,3,0,1,2,0,0,11
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,Real Madrid,RCD Espanyol,home,3,1,Gonzalo Escudero,CB,90,111,95,85,9,0,0,0,0,0,0,0,19,4,7,4,0,7,3,3,1,1,0,0,13
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Getafe CF,Atletico Madrid,away,0,2,Javi Quintana,W,90,41,30,21,1,1,6,1,1,0,0,0,2,5,0,2,0,1,5,0,0,3,0,0,15
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Atletico Madrid,Girona FC,home,2,2,Aitor Prieto,W,5,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Atletico Madrid,Getafe CF,home,2,0,Izan Rivas,W,90,80,48,40,3,4,4,3,5,1,0,0,6,3,2,1,0,2,6,0,1,3,0,0,11
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,atletico madrid,FC Barcelona,away,1,2,Asier Ibarra,ST,68,28,21,16,0,0,2,2,2,1,0,0,4,11,1,1,1,0,1,0,2,1,0,0,7
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,FC Barcelona,Real Madrid,home,2,2,Sergi Nogales,CB,72,53,42,37,0,0,0,0,1,0,0,0,2,1,4,3,3,2,6,1,1,0,0,0,8
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Real Madrid,Girona FC,away,3,0,Diego Cabrera,CM,33,28,22,20,11,1,2,0,1,0,0,0,3,0,2,0,1,3,4,0,0,1,0,0,5
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Atletico Madrid,Real Madrid,away,0,1,Kike Moliner,FB,57,34,27,22,5,2,1,1,2,0,0,0,3,4,0,1,3,2,4,1,1,0,0,0,5
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Real Madrid,Girona FC,away,3,0,Aitor Ruiz,CB,90,75,63,52,7,0,0,0,0,0,0,0,5,7,2,5,3,1,5,6,2,0,0,0,16
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,RCD Espanyol,Girona FC,home,3,1,Erik Barrios,W,90,46,33,26,6,4,1,1,3,1,0,0,9,3,0,3,0,0,3,0,0,1,0,0,12
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,RCD Espanyol,Real Madrid,away,1,3,Leo Carrasco,CM,90,69,49,42,8,2,5,1,2,0,0,0,7,5,1,3,0,2,9,3,0,4,0,0,12
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Real Madrid,Getafe CF,home,9,0,Kike Quintana,ST,25,11,5,4,1,0,0,0,1,0,0,1,5,0,2,0,0,0,4,0,0,0,0,0,2
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,Getafe CF,RCD Espanyol,home,1,2,Teo Alonso,CB,90,44,31,29,2,0,0,0,2,0,0,0,4,6,5,3,3,2,10,4,3,0,0,0,3
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Girona FC,Real Madrid,home,0,3,Thiago Herrera,GK,90,22,14,11,4,0,0,0,0,0,0,0,4,0,0,0,0,1,1,4,0,0,0,0,3
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Getafe CF,Real Madrid,away,0,9,Unai Bermejo,CM,90,38,30,27,10,1,2,0,2,0,0,0,7,9,1,0,3,2,3,1,2,0,0,0,5
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Real Madrid ,Atletico Madrid,home,1,0,Lucas Puig,CB,25,18,15,14,2,0,0,0,1,0,0,0,6,2,3,2,0,1,1,1,0,0,0,0,3
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,RCD Espanyol,Real Madrid,away,1,3,Xavi Tejada,CB,18,7,2,2,1,0,0,0,0,0,0,0,0,0,2,0,0,3,4,3,0,0,0,0,0
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Atletico Madrid,Real Madrid,away,0,1,Pau Bermejo,W,30,9,6,4,2,1,1,0,0,0,0,0,4,5,0,0,1,0,3,0,0,1,0,0,5
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,Getafe CF,RCD Espanyol,home,1,2,Hugo Carrasco,CM,12,1,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,FC Barcelona,Real Madrid,away,1,1,Leo Sastre,CM,90,59,48,42,4,0,2,2,1,0,0,0,11,5,0,0,4,5,11,0,2,3,1,0,8
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Getafe CF,Atletico Madrid,away,0,2,Mateo Ferrer,CM,90,54,40,30,5,0,3,0,0,0,0,0,4,9,2,5,4,1,9,1,0,1,0,0,14
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,FC Barcelona,Atletico Madrid,home,2,1,Bruno Cabrera,GK,90,21,10,8,6,0,0,0,0,0,0,0,2,0,1,0,0,1,2,2,0,1,0,0,8
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,Girona FC,RCD Espanyol,away,1,3,Martin Andrade,FB,90,59,46,38,7,3,2,2,0,0,0,0,5,4,2,1,3,1,3,3,0,2,0,0,8
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,RCD Espanyol,Getafe CF,away,2,1,Manu Ruiz,CM,90,116,87,81,8,3,7,7,2,1,1,0,14,4,1,0,4,2,18,0,3,1,0,0,8
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,FC Barcelona,Getafe CF,away,3,1,Diego Solano,ST,90,38,23,17,8,4,3,1,7,1,1,0,8,6,1,5,1,0,1,0,1,2,0,0,9
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Girona FC,Atletico Madrid,away,2,2,Thiago Herrera,GK,90,16,7,6,1,0,0,0,0,0,0,0,1,0,1,0,0,1,7,3,0,0,0,0,3
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,FC Barcelona,Atletico Madrid,home,2,1,Cesar Mena,ST,18,5,4,3,1,0,0,0,0,0,0,0,3,0,2,1,0,0,1,1,0,1,0,0,1
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,Real Madrid,FC Barcelona,home,1,1,Mateo Fuster,GK,90,31,22,20,6,0,0,0,0,0,0,0,2,1,3,0,1,0,3,5,0,0,0,0,11
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Real Madrid ,Atletico Madrid,home,1,0,Xavi Moliner,CM,90,70,54,46,8,4,4,2,2,0,0,0,8,3,1,1,3,1,3,4,2,3,0,0,11
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,FC Barcelona,Getafe CF,away,3,1,Iker Moliner,FB,72,78,63,59,10,1,1,0,1,0,0,1,9,2,0,3,0,0,2,1,0,3,0,0,7
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,Girona FC,RCD Espanyol,away,1,3,Kike Campos,CB,90,64,52,45,3,0,0,0,0,0,0,0,9,2,4,3,2,5,3,8,0,0,0,0,10
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,Real Madrid,FC Barcelona,home,1,1,Roque Bermejo,CM,90,89,75,70,4,1,0,0,3,0,0,0,5,11,0,1,0,2,4,0,2,0,0,0,8
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,RCD Espanyol,Getafe CF,away,2,1,Gael Prieto,ST,90,37,16,12,3,0,9,3,4,1,0,0,16,2,4,2,0,0,7,0,2,2,0,0,16
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Getafe CF,Real Madrid,away,0,9,Aitor Escudero,W,90,39,30,21,4,2,2,2,1,1,0,0,8,10,0,5,2,2,4,0,1,2,1,0,12
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,RCD Espanyol,Getafe CF,away,2,1,Asier Barrios,W,18,3,1,1,0,1,1,1,0,0,0,1,3,2,0,0,1,2,0,0,0,0,0,0,0
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Girona FC,Atletico Madrid,away,2,2,Hugo Marin,CM,90,66,56,46,10,0,0,0,2,0,0,0,7,9,1,0,4,3,9,2,0,1,1,0,13
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,RCD Espanyol,Real Madrid,away,1,3,Alvaro Herrera,CM,72,37,24,22,0,0,1,1,3,0,0,0,8,4,2,0,5,1,7,0,4,1,0,0,3
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Atletico Madrid,Real Madrid,away,0,1,Pablo Solano,CB,90,64,52,48,4,2,0,0,1,0,0,0,6,3,1,4,3,4,4,5,0,0,0,0,6
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,Getafe CF,RCD Espanyol,home,1,2,Unai Bermejo,CM,78,39,27,25,7,0,2,1,1,0,0,0,4,7,5,1,5,4,4,1,3,2,0,0,3
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,RCD Espanyol,Girona FC,home,3,1,Pablo Vega,W,65,46,34,29,4,4,7,5,2,0,0,0,5,3,0,0,0,1,3,0,1,1,0,0,10
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Atletico Madrid,Girona FC,home,2,2,Samuel Puig,CB,78,86,64,54,10,1,1,1,0,0,0,0,6,1,3,0,3,4,16,4,1,1,0,0,16
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,FC Barcelona,Real Madrid,away,1,1,Asier Yuste,CM,90,78,64,55,8,3,7,1,0,0,0,0,7,6,1,3,1,5,4,2,0,2,0,0,18
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Getafe CF,Atletico Madrid,away,0,2,Oriol Cuesta,GK,90,19,11,9,0,0,0,0,0,0,0,0,1,0,1,0,0,0,3,3,1,0,0,0,6
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Getafe CF,Atletico Madrid,away,0,2,Nico Moliner,W,90,35,14,11,3,1,10,1,1,0,0,0,3,3,2,2,1,1,9,1,1,3,0,0,12
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,FC Barcelona,Girona FC,away,4,0,Asier Rojas,W,90,61,38,30,10,9,6,6,4,1,0,0,10,2,0,1,6,0,1,0,0,1,0,0,10
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Atletico Madrid,Girona FC,home,2,2,Dani Fuster,W,90,61,37,32,2,1,15,6,1,1,0,0,12,6,1,2,1,2,5,0,3,1,0,0,16
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,FC Barcelona,Real Madrid,away,1,1,Samuel Roldan,CB,33,25,17,16,4,0,0,0,0,0,0,0,7,1,2,1,1,1,3,4,0,0,1,0,4
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Real Madrid ,Atletico Madrid,home,1,0,Nico Marin,CM,33,24,19,18,6,0,1,1,1,1,1,0,2,0,1,0,2,0,3,0,1,1,0,0,3
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,FC Barcelona,Real Madrid,home,2,2,Nil Andrade,W,0,7,7,5,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,0,2
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,FC Barcelona,Girona FC,away,4,0,Pablo Rivas,ST,18,11,2,2,0,0,1,0,3,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,1
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,FC Barcelona,Atletico Madrid,home,2,1,Aleix Rojas,ST,90,40,22,16,4,1,10,2,3,0,0,1,9,8,1,5,1,0,2,0,2,1,0,0,16
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,FC Barcelona,Atletico Madrid,home,2,1,Sergi Cordero,FB,90,76,57,50,5,5,5,3,2,0,0,0,5,3,1,4,5,6,5,6,3,0,0,0,13
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Atletico Madrid,Getafe CF,home,2,0,Samuel Campos,FB,90,73,51,48,8,6,5,0,2,0,0,0,10,2,1,0,1,3,5,3,1,0,0,0,10
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,FC Barcelona,Real Madrid,home,2,2,Iker Moliner,FB,90,71,53,41,11,4,3,0,1,0,0,1,3,3,1,5,2,1,13,2,0,3,1,0,16
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Girona FC,Atletico Madrid,away,2,2,Hugo Andrade,CM,,40,31,26,3,2,2,1,1,0,0,0,4,4,1,0,4,1,5,0,0,1,0,0,6
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,Getafe CF,FC Barcelona,home,1,3,Unai Serrano,FB,65,15,9,8,2,0,0,0,1,0,0,0,5,5,0,0,2,1,4,2,1,2,0,0,2
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,FC Barcelona,Getafe CF,away,3,1,Marc Puig,CM,90,109,91,83,10,2,3,3,2,1,0,0,7,12,0,4,3,1,8,2,4,0,0,0,11
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,FC Barcelona,Real Madrid,away,1,1,Erik Moliner,CM,90,54,40,34,3,0,6,3,0,0,0,0,8,7,1,2,3,5,12,0,1,3,0,0,12
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,RCD Espanyol,Girona FC,home,3,1,Unai Cabrera,CM,65,44,37,35,5,1,1,1,1,1,1,0,12,4,0,1,1,3,7,0,0,2,0,0,4
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,Real Madrid,RCD Espanyol,home,3,1,Erik Mena,FB,90,115,97,78,8,4,1,1,3,0,0,1,11,6,2,0,1,0,7,6,1,0,0,0,19
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,atletico madrid,FC Barcelona,away,1,2,Adrian Sastre,GK,90,33,19,15,2,0,1,0,0,0,0,0,2,2,0,0,0,1,4,0,2,0,1,0,10
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Atletico Madrid,Getafe CF,home,2,0,Martin Alonso,W,60,30,18,14,3,4,5,2,1,1,1,0,4,6,0,0,0,1,3,1,1,1,0,0,7
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,Girona FC,FC Barcelona,home,0,4,Kike Campos,CB,90,52,36,31,3,0,1,1,0,0,0,0,5,4,3,1,2,7,12,3,0,2,0,0,8
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Girona FC,Real Madrid,home,0,3,Erik Cordero,CM,90,47,30,28,9,1,5,0,0,0,0,0,9,8,1,1,0,2,7,1,1,0,0,0,9
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,RCD Espanyol,Girona FC,home,3,1,Alvaro Herrera,CM,90,84,69,64,7,0,3,0,1,0,0,1,3,6,1,2,0,2,8,1,0,1,0,0,14
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Girona FC,Real Madrid,home,0,3,Javi Tejada,CB,78,30,18,15,3,1,0,0,0,0,0,0,3,5,5,3,1,2,9,8,1,0,0,0,4
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,RCD Espanyol,Girona FC,home,3,1,Unai Prieto,FB,90,65,42,36,12,6,7,1,0,0,0,0,10,3,3,6,0,3,1,5,1,2,0,0,12
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,FC Barcelona,Real Madrid,away,1,1,Unai Delgado,W,33,18,16,12,0,3,2,0,0,0,0,0,2,0,0,1,0,0,1,0,1,0,0,0,7
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,FC Barcelona,Atletico Madrid,home,2,1,Leo Cuesta,CB,90,69,52,45,4,0,0,0,0,0,0,0,12,2,4,4,2,2,3,8,0,0,0,0,9
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,Girona FC,RCD Espanyol,away,1,3,Joel Prieto,CM,90,66,50,47,6,0,1,1,1,1,0,0,10,2,0,4,4,1,12,1,2,2,0,0,5
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,Girona FC,FC Barcelona,home,0,4,Xavi Sastre,CM,30,14,9,8,5,0,3,0,0,0,0,0,3,3,1,1,2,1,1,0,2,0,1,0,4
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,Girona FC,FC Barcelona,home,0,4,Ignacio Vega,CM,90,60,49,41,0,1,4,3,2,0,0,0,10,12,1,1,2,1,9,0,1,2,0,0,10
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,Real Madrid,FC Barcelona,home,1,1,Biel Otero,CM,72,55,43,39,2,2,5,0,1,0,0,0,8,9,1,0,2,2,10,0,0,2,0,0,9
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Girona FC,Atletico Madrid,away,2,2,Erik Cordero,CM,65,56,44,36,3,1,3,3,0,0,0,0,2,4,2,1,6,2,0,2,0,3,0,0,13
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,FC Barcelona,Real Madrid,away,1,1,Javi Cabrera,FB,57,44,31,26,8,1,0,0,2,0,0,0,2,8,3,0,2,1,5,2,0,2,0,0,10
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,Getafe CF,FC Barcelona,home,1,3,Alvaro Serrano,CB,18,9,6,5,1,0,0,0,0,0,0,0,2,1,1,1,0,1,0,2,1,0,0,0,1
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Real Madrid ,Atletico Madrid,home,1,0,Erik Mena,FB,90,89,70,61,10,9,4,1,0,0,0,0,7,2,1,1,2,3,8,2,2,3,0,0,13
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Atletico Madrid,Girona FC,home,2,2,Nil Alonso,CB,12,3,2,2,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,FC Barcelona,Atletico Madrid,home,2,1,Izan Barrios,W,72,52,27,18,3,2,12,0,0,0,0,0,5,13,2,2,0,0,7,1,1,4,1,0,27
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,Real Madrid,RCD Espanyol,home,3,1,Dani Ibarra,FB,90,92,70,60,18,6,1,0,1,0,0,0,8,5,3,0,3,2,12,3,1,0,0,0,16
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,Real Madrid,RCD Espanyol,home,3,1,Lucas Puig,CB,33,25,13,11,4,0,1,0,0,0,0,0,6,1,1,2,2,0,2,4,0,1,0,0,3
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Atletico Madrid,Girona FC,home,2,2,Aleix Quintana,FB,65,41,27,23,3,6,6,2,0,0,0,0,5,2,2,1,1,1,1,2,0,1,0,0,8
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,RCD Espanyol,Real Madrid,away,1,3,Dani Lozano,ST,90,31,18,11,1,2,2,2,5,3,0,0,2,2,4,3,0,0,4,0,4,3,0,0,9
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Girona FC,Real Madrid,home,0,3,Ignacio Andrade,FB,90,44,36,29,3,0,1,1,1,0,0,0,7,4,1,1,6,1,4,0,1,0,0,0,7
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Real Madrid,Getafe CF,home,9,0,Nico Otero,FB,90,79,62,58,6,20,2,1,2,1,0,0,7,0,0,2,1,4,1,1,1,0,0,0,5
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Real Madrid,Girona FC,away,3,0,Samuel  Alonso,CB,68,61,40,35,6,2,2,1,1,0,0,0,8,1,5,1,4,2,3,9,1,1,1,0,8
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Girona FC,Real Madrid,home,0,3,Teo Delgado,ST,30,3,3,2,0,0,0,0,0,0,0,0,1,4,0,0,0,0,0,0,0,1,1,0,1
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,FC Barcelona,Getafe CF,away,3,1,Cesar Serrano,CB,90,89,70,66,7,0,4,2,0,0,0,0,5,6,3,2,0,2,9,4,0,1,0,0,8
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Real Madrid ,Atletico Madrid,home,1,0,Pau Otero,W,90,69,56,40,11,5,4,4,3,1,0,0,16,3,0,3,3,0,5,0,1,3,0,0,17
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Getafe CF,Real Madrid,away,0,9,Teo Alonso,CB,90,28,16,12,1,1,0,0,0,0,0,0,8,10,11,0,5,1,7,4,1,5,1,0,6
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,FC Barcelona,Real Madrid,home,2,2,Marc Puig,CM,65,63,47,36,2,1,4,1,2,0,0,0,6,3,1,1,0,1,3,1,1,2,0,0,16
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,Getafe CF,FC Barcelona,home,1,3,Manu Andrade,ST,90,40,25,19,0,0,5,2,1,1,0,0,7,5,7,2,0,0,4,1,0,2,0,0,10
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,FC Barcelona,Atletico Madrid,home,2,1,Leo Sastre,CM,90,110,90,77,8,5,6,5,0,0,0,1,16,12,4,0,2,5,12,0,2,0,0,0,17
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Atletico Madrid,Girona FC,home,2,2,Iker Salas,W,90,76,62,48,6,8,8,5,2,1,1,0,12,5,1,1,1,2,5,0,1,2,0,0,22
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,FC Barcelona,Real Madrid,home,2,2,Arnau Herrera,GK,90,62,53,43,1,0,3,0,0,0,0,0,0,1,0,1,0,0,2,2,0,1,0,0,14
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,Girona FC,FC Barcelona,home,0,4,Sergi Solano,GK,90,26,17,14,2,0,0,0,0,0,0,0,1,0,0,1,0,0,5,5,0,0,0,0,3
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Getafe CF,Atletico Madrid,away,0,2,Pau Sastre,CB,90,39,24,23,4,0,0,0,1,0,0,0,8,2,4,2,2,3,7,9,2,1,0,0,3
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Real Madrid ,Atletico Madrid,home,1,0,Dani Ibarra,FB,90,48,39,34,7,5,2,2,0,0,0,1,3,5,2,1,1,4,3,2,4,1,0,0,5
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,FC Barcelona,Getafe CF,away,3,1,Javi Ruiz,FB,22,27,21,18,1,0,1,1,0,0,0,1,1,2,0,3,0,0,2,0,0,1,0,0,3
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,FC Barcelona,Atletico Madrid,home,2,1,Pablo Campos,CB,90,101,83,73,8,0,2,2,0,0,0,0,9,3,4,3,1,5,7,2,1,0,0,0,13
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Atletico Madrid,Girona FC,home,2,2,Aleix Moliner,FB,90,61,48,41,4,3,6,3,0,0,0,0,4,3,1,2,2,1,8,0,1,1,0,0,11
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,FC Barcelona,Getafe CF,away,3,1,Pablo Roldan,W,65,56,35,29,10,12,7,7,3,0,0,0,10,2,0,0,1,3,6,0,1,3,0,0,9
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Real Madrid,Getafe CF,home,9,0,Biel Otero,CM,60,67,53,46,7,2,3,2,3,2,1,1,7,1,0,0,4,0,4,2,0,0,0,0,13
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Getafe CF,Real Madrid,away,0,9,Alvaro Moliner,CM,90,48,41,37,2,1,3,1,1,1,0,0,7,2,2,1,3,1,3,0,2,0,1,0,8
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,Girona FC,FC Barcelona,home,0,4,Aitor Cordero,ST,90,37,24,18,4,0,4,3,3,0,0,0,4,8,3,0,3,1,1,0,0,2,0,0,10
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,Real Madrid,FC Barcelona,away,2,2,Nico Marin,CM,33,31,22,19,2,0,3,1,1,0,0,0,3,5,0,0,1,3,6,0,0,1,0,0,6
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Atletico Madrid,Real Madrid,away,0,1,Bruno Serrano,FB,7,4,2,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Real Madrid,Getafe CF,home,9,0,Marc Otero,W,90,71,47,39,5,11,12,4,3,0,0,1,8,5,1,1,4,0,6,0,3,3,0,0,18
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,Real Madrid,FC Barcelona,away,2,2,Lucas Puig,CB,25,19,17,14,0,0,0,0,0,0,0,0,2,0,0,0,1,1,1,2,0,0,0,0,3
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,RCD Espanyol,Girona FC,home,3,1,Dani Lozano,ST,90,40,24,21,3,0,8,3,1,0,0,0,8,13,2,5,1,0,4,1,2,0,0,0,12
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Girona FC,Atletico Madrid,away,2,2,Xavi Galan,CM,33,23,20,14,0,0,0,0,0,0,0,1,1,5,0,0,3,4,3,1,0,0,0,0,6
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Real Madrid,Getafe CF,home,9,0,Mateo Fuster,GK,90,71,58,50,6,0,1,0,0,0,0,0,0,1,1,1,0,0,5,1,0,1,0,0,14
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,Girona FC,FC Barcelona,home,0,4,Martin Andrade,FB,90,34,27,22,2,6,1,0,0,0,0,0,6,8,1,1,4,2,3,2,2,1,0,0,9
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,Getafe CF,FC Barcelona,home,1,3,Oriol Cuesta,GK,90,36,20,16,1,0,0,0,0,0,0,0,2,2,0,1,0,0,2,8,0,2,0,0,4
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,Getafe CF,RCD Espanyol,home,1,2,Pablo Ruiz,FB,90,41,32,26,6,2,2,0,0,0,0,0,7,9,1,2,3,5,6,2,3,1,0,0,9
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Real Madrid ,Atletico Madrid,home,1,0,Gonzalo Escudero,CB,57,28,21,19,8,0,1,0,0,0,0,0,7,1,1,1,1,3,2,0,0,0,0,0,6
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,Real Madrid,RCD Espanyol,home,3,1,Adrian Baena,ST,30,19,15,12,1,0,3,2,0,0,0,0,1,1,1,3,0,0,0,0,0,1,0,0,4
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Real Madrid ,Atletico Madrid,home,1,0,Iker Rojas,ST,57,17,11,8,1,0,1,1,2,1,0,0,6,1,0,5,0,1,5,0,2,0,0,0,3
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Getafe CF,Real Madrid,away,0,9,Pablo Ruiz,FB,90,57,41,30,9,2,2,1,0,0,0,0,11,5,3,1,4,3,5,5,0,1,0,0,12
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Getafe CF,Real Madrid,away,0,9,Martin Bermejo,W,57,26,9,7,3,0,2,2,2,0,0,0,2,7,0,0,2,0,7,2,0,5,0,0,3
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Real Madrid ,Atletico Madrid,home,1,0,Oriol Ruiz,GK,90,51,31,26,3,0,0,0,0,0,0,0,3,0,1,0,0,0,5,5,1,1,0,0,9
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Real Madrid ,Atletico Madrid,home,1,0,Unai Puig,CB,90,76,60,55,9,0,0,0,0,0,0,0,5,5,6,2,2,4,13,4,0,0,0,0,9
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,FC Barcelona,Atletico Madrid,home,2,1,Samuel Roldan,CB,25,16,15,14,0,1,0,0,0,0,0,0,4,0,1,0,0,1,2,0,1,1,0,0,1
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Real Madrid ,Atletico Madrid,home,1,0,Ignacio Delgado,CM,90,64,43,37,13,2,3,3,2,1,0,0,8,4,2,2,1,1,4,2,0,1,0,0,10
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Atletico Madrid,Girona FC,home,2,2,Adrian Sastre,GK,90,38,25,21,4,0,0,0,0,0,0,0,5,1,1,1,0,0,5,5,0,0,0,0,7
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,Girona FC,FC Barcelona,home,0,4,Thiago Bermejo,FB,12,3,1,1,0,0,1,0,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0,2
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Getafe CF,Atletico Madrid,away,0,2,Unai Serrano,FB,78,43,31,24,2,4,2,1,1,0,0,0,3,6,3,5,1,2,9,1,0,0,0,0,8
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,Girona FC,RCD Espanyol,away,1,3,Aitor Cordero,ST,90,27,10,8,4,0,4,3,6,0,0,0,2,10,3,1,0,0,0,0,0,2,0,0,5
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,atletico madrid,FC Barcelona,away,1,2,Ignacio Cabrera,FB,22,8,4,3,1,1,1,0,0,0,0,0,3,4,0,1,2,3,2,0,1,0,0,0,2
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Getafe CF,Real Madrid,away,0,9,Kike Andrade,GK,90,34,24,20,3,0,0,0,0,0,0,0,0,0,1,0,0,0,2,4,2,2,0,0,4
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Getafe CF,Atletico Madrid,away,0,2,Izan Galan,FB,65,27,23,22,3,1,1,1,0,0,0,0,2,5,2,4,3,0,2,0,0,1,0,0,2
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Girona FC,Real Madrid,home,0,3,Samuel Cordero,W,90,24,13,10,4,1,4,0,2,1,0,0,2,6,0,3,0,0,3,0,0,2,0,0,10
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Atletico Madrid,Getafe CF,home,2,0,Biel Fuster,CM,90,101,88,83,16,2,4,4,1,1,0,0,9,12,1,2,0,6,10,0,2,0,0,0,10
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,FC Barcelona,Atletico Madrid,home,2,1,Ignacio Carrasco,W,90,89,63,51,4,8,9,6,6,0,0,0,12,9,0,1,2,1,6,0,0,3,0,0,16
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,FC Barcelona,Girona FC,away,4,0,Cesar Serrano,CB,90,73,64,54,8,0,1,0,0,0,0,0,8,4,6,0,3,4,3,6,3,0,0,0,12
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,atletico madrid,FC Barcelona,away,1,2,Kike Nogales,CM,90,59,40,38,10,0,3,0,0,0,0,0,6,6,2,1,2,4,16,3,1,0,0,0,7
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,Real Madrid,RCD Espanyol,home,3,1,Ignacio Lozano,CM,90,99,82,70,12,2,7,5,3,0,0,0,4,7,2,2,2,2,4,2,2,1,1,0,22
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,Getafe CF,FC Barcelona,home,1,3,Izan Galan,FB,90,,30,24,4,2,2,1,1,1,1,0,9,2,2,3,3,4,10,2,1,1,0,0,8
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,FC Barcelona,Atletico Madrid,home,2,1,Asier Yuste,CM,68,53,41,39,7,0,1,1,2,2,1,0,8,2,0,1,5,2,7,2,0,0,0,0,2
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Girona FC,Atletico Madrid,away,2,2,Erik Serrano,CB,25,19,14,12,1,0,0,0,1,0,0,0,2,1,2,2,0,1,2,2,0,0,0,0,2
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Girona FC,Atletico Madrid,away,2,2,Pablo Yuste,CB,90,54,37,29,6,1,1,0,0,0,0,0,2,0,3,3,1,2,15,5,0,0,1,0,12
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,Real Madrid,FC Barcelona,away,2,2,Oriol Ruiz,GK,90,37,27,21,11,0,0,0,0,0,0,0,1,0,0,0,1,0,1,2,1,0,0,0,13
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,Getafe CF,FC Barcelona,home,1,3,Pau Sastre,CB,90,59,48,41,5,0,0,0,0,0,0,0,2,1,5,4,4,1,5,3,1,2,1,0,7
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,Getafe CF,FC Barcelona,home,1,3,Roque Vidal,CM,90,55,43,40,11,2,0,0,2,0,0,0,9,3,1,0,3,3,10,1,1,5,0,0,4
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,Real Madrid,FC Barcelona,home,1,1,Rubén Prieto,CB,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Real Madrid,Girona FC,away,3,0,Erik Puig,CM,90,68,58,55,6,3,2,2,2,1,0,0,8,6,1,1,1,2,3,1,0,2,0,0,5
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,Real Madrid,FC Barcelona,away,2,2,Iker Rojas,ST,90,35,17,13,3,2,11,1,3,2,1,0,2,6,4,1,1,0,0,1,0,2,0,0,14
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,FC Barcelona,Real Madrid,home,2,2,Arnau Fuster,CM,90,76,65,69,8,2,2,2,1,1,1,0,8,9,1,2,2,3,8,0,1,0,0,0,13
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,Real Madrid,FC Barcelona,away,2,2,Ignacio Lozano,CM,57,41,29,25,9,2,3,0,1,0,0,0,6,3,3,0,2,0,10,1,1,2,0,0,9
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Girona FC,Real Madrid,home,0,3,Erik Serrano,CB,25,11,6,5,2,1,0,0,0,0,0,0,0,0,1,1,1,2,2,4,0,0,0,0,1
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Real Madrid,Girona FC,away,3,0,Arnau Bermejo,W,68,55,38,30,16,7,10,6,1,1,0,0,11,0,0,0,0,0,3,0,0,1,0,0,12
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,FC Barcelona,Girona FC,away,4,0,Marc Puig,CM,90,108,86,77,14,5,8,2,0,0,0,1,6,5,4,3,5,2,11,1,2,2,0,0,22
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Real Madrid,Girona FC,away,3,0,Roque Moliner,W,22,20,16,13,0,1,2,1,1,1,1,0,3,4,1,0,0,0,2,0,1,1,0,0,5
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,atletico madrid,FC Barcelona,away,1,2,Nil Alonso,CB,12,6,2,2,0,0,1,0,0,0,0,0,1,2,0,1,0,0,0,2,0,0,0,0,2
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Atletico Madrid,Girona FC,home,2,2,Kike Nogales,CM,90,72,61,52,11,0,2,1,0,0,0,0,8,4,2,1,1,1,,2,1,2,0,0,16
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Girona FC,Real Madrid,home,0,3,Aitor Vega,W,65,15,10,8,1,0,1,1,0,0,0,0,3,2,4,1,0,0,7,0,0,2,1,0,2
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,Getafe CF,RCD Espanyol,home,1,2,Erik Otero,ST,78,30,16,11,0,0,3,2,6,3,0,0,7,7,6,7,0,1,3,0,0,4,0,0,7
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,Girona FC,FC Barcelona,home,0,4,Joel Prieto,CM,90,65,55,45,10,3,1,1,4,1,0,0,6,6,2,2,4,0,2,0,3,3,1,0,13
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,FC Barcelona,Real Madrid,away,1,1,Aleix Rojas,ST,90,48,27,20,2,1,10,4,2,1,1,0,7,6,3,4,0,2,2,2,1,2,0,0,14
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Real Madrid,Getafe CF,home,9,0,Arnau Bermejo,W,90,65,47,35,4,9,8,2,7,2,1,0,6,11,1,1,0,1,2,0,2,5,0,0,24
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Real Madrid,Getafe CF,home,9,0,Erik Puig,CM,90,97,75,70,8,2,5,1,1,0,0,1,9,5,1,3,2,5,14,0,0,3,1,0,11
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Atletico Madrid,Getafe CF,home,2,0,Aleix Campos,GK,90,45,37,33,5,0,0,0,0,0,0,0,5,0,0,1,0,0,5,0,0,0,1,0,10
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,Girona FC,FC Barcelona,home,0,4,Ignacio Bermejo,FB,90,37,24,21,4,4,1,1,0,0,0,0,9,4,6,1,6,2,7,5,2,3,0,0,4
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,Getafe CF,RCD Espanyol,home,1,2,Sergi Serrano,ST,12,5,3,2,0,1,0,0,1,1,1,0,2,1,0,0,0,0,0,1,0,1,1,0,1
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,FC Barcelona,Getafe CF,away,3,1,Arnau Herrera,GK,90,38,29,27,4,0,2,2,0,0,0,0,2,1,2,0,0,0,2,1,0,0,0,0,9
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Getafe CF,Atletico Madrid,away,0,2,Roque Vidal,CM,90,52,37,31,8,2,3,0,1,1,0,0,2,6,1,2,6,5,8,1,0,2,0,0,9
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,FC Barcelona,Girona FC,away,4,0,Mateo Andrade,CB,25,16,11,10,3,1,0,0,0,0,0,0,1,0,6,1,0,1,1,3,0,0,1,0,2
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Atletico Madrid,Real Madrid,away,0,1,Thiago Salas,CB,3,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,Real Madrid,FC Barcelona,home,1,1,Marc Otero,W,90,67,48,39,6,3,8,2,5,0,0,0,6,10,1,1,2,1,7,0,1,3,0,0,15
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Atletico Madrid,Getafe CF,home,2,0,Cesar Rivas,CB,90,70,52,49,10,2,2,2,0,0,0,0,4,0,0,3,1,1,5,2,1,1,0,0,3
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Real Madrid,Getafe CF,home,9,0,Roque Bermejo,CM,90,81,62,58,9,6,3,1,2,2,4,1,8,6,2,2,4,2,6,1,0,0,0,0,7
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Getafe CF,Atletico Madrid,away,0,2,Nico Andrade,CM,68,37,24,23,2,0,1,1,2,1,0,0,5,5,2,2,5,3,8,1,2,1,0,0,1
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,Real Madrid,RCD Espanyol,home,3,1,Samuel Ruiz,W,90,81,50,43,5,4,11,3,4,1,1,0,4,6,0,2,1,0,8,1,4,10,0,0,16
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,FC Barcelona,Getafe CF,away,3,1,Manu Herrera,FB,90,67,45,37,20,8,3,0,2,0,0,0,8,5,3,0,4,1,8,1,2,4,0,0,13
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Atletico Madrid,Getafe CF,home,2,0,Pablo Solano,CB,90,75,62,58,9,0,0,0,0,0,0,0,12,4,3,0,3,0,10,3,0,1,0,0,9
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,FC Barcelona,Real Madrid,home,2,2,Pablo Roldan,W,90,45,26,20,5,3,8,2,1,1,1,0,8,7,2,1,2,4,1,0,1,2,0,0,13
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,atletico madrid,FC Barcelona,away,1,2,Xavi Barrios,ST,25,12,10,7,0,0,1,0,1,1,1,0,0,3,1,0,0,0,0,0,0,0,0,0,4
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Atletico Madrid,Getafe CF,home,2,0,Pau Bermejo,W,18,19,15,11,0,0,2,0,0,0,0,0,2,1,0,1,0,0,0,0,0,0,0,0,7
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Atletico Madrid,Real Madrid,away,0,1,Cesar Rivas,CB,90,42,32,27,4,0,0,0,0,0,0,0,7,4,3,1,5,3,5,4,2,0,0,0,7
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,Real Madrid,FC Barcelona,away,2,2,Xavi Moliner,CM,90,68,49,40,5,1,5,2,0,0,0,1,13,9,0,2,0,1,11,0,5,0,0,0,20
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,FC Barcelona,Real Madrid,home,2,2,Cesar Serrano,CB,90,63,51,48,7,0,0,0,0,0,0,0,3,0,5,3,1,5,12,2,2,2,0,0,9
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Real Madrid,Girona FC,away,3,0,Marc Otero,W,90,95,66,51,1,16,13,1,3,3,1,0,7,7,3,0,0,0,3,1,3,4,0,0,38
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Atletico Madrid,Real Madrid,away,0,1,Aitor Lozano,ST,90,27,23,17,2,1,0,0,2,1,0,0,8,6,4,5,0,1,2,1,3,2,0,0,10
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,Girona FC,RCD Espanyol,away,1,3,Dani Cuesta,CM,90,73,59,55,7,0,6,3,0,0,0,0,3,12,2,1,2,2,7,1,2,0,0,0,10
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,Real Madrid,FC Barcelona,home,1,1,Erik Puig,CM,90,41,26,24,1,0,2,2,3,1,0,1,7,5,1,0,3,0,14,1,2,1,0,0,5
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Real Madrid,Getafe CF,home,9,0,Roque Vega,FB,90,69,59,54,7,11,1,1,2,1,0,0,2,5,1,2,4,3,5,1,1,0,0,0,7
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,Getafe CF,FC Barcelona,home,1,3,Nico Andrade,CM,90,45,34,32,4,1,3,0,0,0,0,0,4,9,1,0,3,3,9,1,1,3,0,0,7
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Atletico Madrid,Getafe CF,home,2,0,Mateo Otero,CM,90,78,57,51,6,1,3,3,0,0,0,0,10,4,0,1,1,4,11,2,1,2,0,0,7
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,Real Madrid,FC Barcelona,home,1,1,Arnau Bermejo,W,90,47,33,29,2,5,6,2,2,1,0,0,8,9,0,3,0,1,2,1,2,1,1,0,12
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Atletico Madrid,Real Madrid,away,0,1,Izan Rivas,W,90,46,26,21,7,2,3,3,2,0,0,0,2,6,1,0,2,0,6,2,1,3,0,0,8
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Atletico Madrid,Girona FC,home,2,2,Xavi Barrios,ST,12,10,7,6,0,1,1,0,1,0,0,1,2,0,0,0,0,0,1,0,0,0,0,0,2
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,Real Madrid,FC Barcelona,away,2,2,Pau Otero,W,90,62,42,37,2,5,9,2,1,1,0,0,6,7,0,1,1,1,6,2,1,5,0,0,15
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,RCD Espanyol,Real Madrid,away,1,3,Unai Cabrera,CM,57,33,23,22,5,0,5,3,0,0,0,0,1,3,1,0,2,2,2,0,0,1,0,0,3
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Girona FC,Atletico Madrid,away,2,2,Diego Ruiz,ST,90,20,8,5,6,0,4,0,4,3,1,0,4,7,4,5,0,0,4,0,1,1,0,0,8
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,Real Madrid,RCD Espanyol,home,3,1,Oriol Ruiz,GK,90,42,22,17,4,0,1,0,0,0,0,0,1,0,2,1,0,1,5,0,0,1,0,0,7
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,RCD Espanyol,Getafe CF,away,2,1,Lucas Prieto,GK,90,42,24,21,6,0,1,0,0,0,0,0,1,0,0,0,1,0,4,2,1,2,0,0,7
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Girona FC,Atletico Madrid,away,2,2,Ignacio Andrade,FB,90,54,41,33,4,1,3,1,0,0,0,0,10,2,2,1,5,5,6,5,3,1,0,0,10
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Girona FC,Atletico Madrid,away,2,2,Aitor Vega,W,90,39,21,17,6,4,5,2,3,0,0,0,7,16,2,0,0,0,7,1,2,0,1,0,7
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,Girona FC,FC Barcelona,home,0,4,Aitor Cordero,ST,90,37,24,18,4,0,4,3,3,0,0,0,4,8,3,0,3,1,1,0,0,2,0,0,10
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,Real Madrid,FC Barcelona,home,1,1,Nico Otero,FB,60,46,39,37,3,3,1,1,0,0,0,0,9,4,4,2,4,1,2,0,0,1,0,0,3
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,FC Barcelona,Girona FC,away,4,0,Manu Herrera,FB,90,81,59,50,8,7,2,1,2,0,0,1,9,5,1,3,1,4,4,2,1,0,1,0,16
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Getafe CF,Real Madrid,away,0,9,Hugo Carrasco,CM,6,3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,Girona FC,RCD Espanyol,away,1,3,Joel Nogales,W,90,34,20,16,5,7,4,4,5,2,0,0,15,2,1,0,2,0,3,0,0,2,0,0,5
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Real Madrid,Girona FC,away,3,0,Mateo Fuster,GK,90,33,20,16,5,0,0,0,0,0,0,0,1,2,1,1,1,0,6,1,3,0,0,0,6
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,FC Barcelona,Girona FC,away,4,0,Nil Andrade,W,22,15,9,8,1,2,2,0,1,1,1,0,4,0,0,1,2,0,4,0,1,0,0,0,3
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Real Madrid,Getafe CF,home,9,0,Lucas Cabrera,FB,30,25,23,18,0,2,1,1,1,1,1,0,3,1,1,0,0,0,0,0,0,0,0,0,6
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,Real Madrid,FC Barcelona,away,2,2,Samuel Ruiz,W,65,24,13,10,5,0,8,2,1,1,1,0,7,3,1,1,2,0,4,0,4,1,0,0,10
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,RCD Espanyol,Getafe CF,away,2,1,Nil Campos,CM,30,27,20,19,1,2,4,1,1,0,0,0,3,5,0,2,0,0,3,0,0,1,0,0,5
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,FC Barcelona,Girona FC,away,4,0,Iker Moliner,FB,68,74,61,49,9,5,2,1,0,0,0,1,6,4,1,1,5,1,6,2,2,0,0,0,17
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Atletico Madrid,Real Madrid,away,0,1,Martin Alonso,W,90,42,27,22,5,4,9,4,2,2,0,0,5,8,0,1,0,1,2,2,1,5,0,0,11
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Getafe CF,Real Madrid,away,0,9,Arnau Serrano,FB,90,33,19,18,4,1,6,0,0,0,0,0,5,11,1,3,5,1,10,2,3,1,0,0,8
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Getafe CF,Atletico Madrid,away,0,2,Alvaro Serrano,CB,12,9,5,4,0,0,1,0,0,0,0,0,0,0,1,1,0,0,2,2,0,0,0,0,2
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,FC Barcelona,Getafe CF,away,3,1,cesar herrera ,CM,90,55,37,33,14,0,6,4,5,3,1,0,9,6,4,2,2,1,6,1,2,0,1,0,8
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,Real Madrid,FC Barcelona,home,1,1,Aitor Ruiz,CB,90,56,36,33,7,0,3,0,0,0,0,0,6,3,6,2,3,2,7,10,0,0,0,0,11
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,FC Barcelona,Atletico Madrid,home,2,1,Gonzalo Tejada,FB,22,14,11,9,2,1,1,0,0,0,0,0,4,1,0,2,0,0,2,1,1,0,0,0,3
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,atletico madrid,FC Barcelona,away,1,2,Iker Salas,W,65,27,19,15,2,1,2,2,0,0,0,1,6,16,2,0,0,1,3,0,0,1,0,0,6
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,Real Madrid,RCD Espanyol,home,3,1,Xavi Moliner,CM,60,44,33,31,8,2,2,2,2,0,0,0,7,2,0,0,2,1,5,1,3,0,1,0,6
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,FC Barcelona,Real Madrid,away,1,1,Izan Barrios,W,90,59,34,30,5,3,10,3,4,0,0,1,8,9,0,1,1,0,5,0,2,2,0,0,14
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Getafe CF,Atletico Madrid,away,0,2,Izan Carrasco,CB,90,46,28,25,9,0,0,0,1,0,0,0,4,4,1,1,2,1,7,7,0,1,0,0,4
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,atletico madrid,FC Barcelona,away,1,2,Aleix Quintana,FB,90,35,18,12,5,0,2,2,0,0,0,0,10,9,0,0,1,1,10,2,0,1,1,0,8
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Real Madrid,Getafe CF,home,9,0,Roque Moliner,W,18,13,7,6,2,1,2,1,3,1,1,1,5,1,1,1,0,0,0,0,0,0,0,0,3
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,FC Barcelona,Real Madrid,home,2,2,Javi Arrieta,CM,25,18,11,10,4,0,3,0,1,0,0,0,1,0,0,2,0,1,2,0,0,0,0,0,5
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Girona FC,Real Madrid,home,0,3,Hugo Marin,CM,90,27,20,16,6,0,1,0,1,1,0,0,9,8,2,2,5,0,3,1,2,2,0,0,8
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Girona FC,Atletico Madrid,away,2,2,Javi Tejada,CB,65,44,27,25,5,1,0,0,0,0,0,0,4,0,5,1,1,4,9,7,3,1,0,0,5
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,RCD Espanyol,Real Madrid,away,1,3,Erik Galan,CM,18,14,9,8,0,0,3,0,0,0,0,0,1,2,1,0,2,0,3,0,0,1,0,0,4
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,Girona FC,RCD Espanyol,away,1,3,Pablo Ruiz,W,90,35,19,12,9,6,11,4,0,0,0,0,4,2,2,2,1,1,1,2,0,5,0,0,20
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Getafe CF,Atletico Madrid,away,0,2,Adrian Bermejo,FB,25,19,15,12,0,0,0,0,0,0,0,0,4,0,0,0,1,0,3,2,0,1,0,0,4
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,RCD Espanyol,Real Madrid,away,1,3,Iker Rivas,CB,90,44,36,32,5,0,1,0,0,0,0,0,8,5,8,1,4,4,5,4,1,0,1,0,9
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,Girona FC,FC Barcelona,home,0,4,Joel Nogales,W,90,34,17,14,4,1,4,4,2,1,0,0,8,7,0,2,2,4,4,1,2,3,0,0,5
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Real Madrid,Girona FC,away,3,0,Nico Otero,FB,90,89,75,65,2,5,2,0,1,0,0,0,4,3,0,3,3,2,10,1,2,1,0,0,14
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,RCD Espanyol,Getafe CF,away,2,1,Pablo Prieto,CB,25,30,24,23,4,0,0,0,0,0,0,0,3,3,1,1,0,2,0,1,0,0,1,0,4
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,FC Barcelona,Real Madrid,home,2,2,Diego Solano,ST,90,37,22,17,1,1,5,0,2,1,0,0,7,15,7,2,1,0,4,0,4,2,0,0,15
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Atletico Madrid,Real Madrid,away,0,1,Aleix Campos,GK,90,35,23,18,0,0,0,0,0,0,0,0,1,0,1,1,0,0,4,7,1,1,0,0,10
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,Girona FC,RCD Espanyol,away,1,3,Marc Mena,W,33,17,8,6,0,2,6,2,2,1,0,0,1,0,1,2,1,0,3,0,1,2,0,0,6
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Real Madrid,Getafe CF,home,9,0,Samuel Alonso,CB,72,75,59,55,5,0,2,1,1,0,0,0,3,2,3,2,1,4,12,5,2,1,0,0,8
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Girona FC,Real Madrid,home,0,3,Pablo Salas,FB,90,46,28,21,2,1,4,2,1,0,0,0,4,3,1,1,4,5,14,2,3,3,0,0,9
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,FC Barcelona,Girona FC,away,4,0,C. Herrera,CM,72,65,50,47,8,1,4,2,1,0,0,0,9,2,1,0,2,2,6,1,4,2,0,0,9
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,Real Madrid,FC Barcelona,away,2,2,Ignacio Delgado,CM,90,60,47,44,9,0,2,2,0,0,0,1,1,8,1,3,4,5,10,1,1,2,0,0,8
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,atletico madrid,FC Barcelona,away,1,2,Aleix Moliner,FB,90,45,35,25,4,3,3,1,2,0,0,0,3,8,4,0,2,4,8,1,1,0,0,0,16
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,Real Madrid,FC Barcelona,home,1,1,Unai Arrieta,ST,90,28,12,8,2,0,6,1,3,2,1,0,2,13,1,2,0,1,4,0,0,2,0,0,12
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,Girona FC,RCD Espanyol,away,1,3,Ignacio Bermejo,FB,72,62,42,33,2,2,2,0,3,0,0,0,4,2,1,3,2,1,5,3,0,1,1,0,14
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Atletico Madrid,Getafe CF,home,2,0,Aitor Lozano,ST,65,38,22,17,3,2,3,3,2,1,1,0,6,5,5,1,1,1,1,1,0,0,0,0,10
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Atletico Madrid,Getafe CF,home,2,0,Kike Moliner,FB,90,77,59,49,7,12,9,6,0,0,0,1,5,7,0,3,1,1,2,1,3,2,0,0,14
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Real Madrid,Girona FC,away,3,0,Kike Quintana,ST,22,21,8,7,0,0,7,0,1,1,0,0,3,1,0,0,0,0,0,0,0,3,0,0,8
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,FC Barcelona,Getafe CF,away,3,1,Pablo Rivas,ST,18,9,6,5,1,0,1,1,1,1,1,1,2,2,0,1,0,1,0,0,2,0,0,0,1
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,FC Barcelona,Real Madrid,home,2,2,Asier Rojas,W,90,68,50,39,3,9,9,7,3,0,0,0,10,12,0,1,4,1,3,0,5,2,0,0,15
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Real Madrid ,Atletico Madrid,home,1,0,Samuel Ruiz,W,90,53,24,21,6,5,10,4,9,1,0,0,5,8,0,1,2,1,4,1,1,2,0,0,10
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,RCD Espanyol,Getafe CF,away,2,1,Nico Rivas,W,90,79,47,39,9,4,13,1,2,0,0,0,10,8,0,1,0,1,5,0,0,1,0,0,20
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,Girona FC,RCD Espanyol,away,1,3,Xavi Sastre,CM,12,11,10,9,2,0,1,0,0,0,0,0,1,3,0,1,0,1,0,0,1,0,0,0,2
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,RCD Espanyol,Real Madrid,away,1,3,Erik Barrios,W,90,43,25,19,3,4,8,3,3,0,0,0,7,13,1,1,2,2,5,1,1,1,0,0,12
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Girona FC,Real Madrid,home,0,3,Xavi Galan,CM,12,8,7,6,6,0,0,0,0,0,0,0,2,1,0,0,0,1,2,0,1,0,0,0,1
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,Getafe CF,FC Barcelona,home,1,3,Marc Nogales,ST,25,6,3,2,0,0,2,0,0,0,0,0,1,2,1,2,0,0,0,0,0,0,1,0,4
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,Real Madrid,FC Barcelona,home,1,1,Kike Quintana,ST,30,7,5,4,1,0,0,0,1,0,0,0,0,5,0,1,2,0,0,1,0,0,0,0,4
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Getafe CF,Atletico Madrid,away,0,2,Marc Nogales,ST,22,4,3,2,0,0,0,0,0,0,0,0,0,3,1,1,1,0,0,0,1,1,0,0,2
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,Real Madrid,RCD Espanyol,home,3,1,Pau Otero,W,72,55,34,28,6,5,12,3,5,0,0,1,6,2,1,1,0,2,2,0,0,3,0,0,16
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Atletico Madrid,Girona FC,home,2,2,Pau Solano,CM,90,129,115,102,6,2,5,1,1,1,0,0,7,3,0,6,4,2,5,0,4,1,0,0,29
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,Girona FC,RCD Espanyol,away,1,3,Aleix Baena,ST,18,5,3,2,0,0,0,0,1,1,1,0,0,0,1,0,2,0,0,1,0,0,0,0,4
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,Real Madrid,RCD Espanyol,home,3,1,Iker Rojas,ST,57,31,20,16,2,0,4,1,1,1,2,0,4,1,5,0,0,0,1,1,0,0,1,0,10
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,RCD Espanyol,Girona FC,home,3,1,Teo Vallejo,FB,90,71,48,43,11,1,9,7,6,4,2,1,12,3,0,1,2,0,1,1,0,0,0,0,6
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,Real Madrid,FC Barcelona,home,1,1,Roque Vega,FB,90,52,34,28,9,4,4,2,3,0,0,0,8,4,1,6,8,3,7,1,1,5,0,0,12
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Atletico Madrid,Getafe CF,home,2,0,Arnau Vega,CM,72,57,47,43,7,5,1,1,2,0,0,0,8,2,2,0,0,0,4,1,1,2,0,0,13
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,Girona FC,RCD Espanyol,away,1,3,Ignacio Vega,CM,57,42,35,33,6,0,2,1,0,0,0,0,2,2,1,0,4,0,3,0,1,1,0,0,3
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,Girona FC,RCD Espanyol,away,1,3,Sergi Solano,GK,90,34,25,20,2,0,0,0,0,0,0,0,0,0,0,0,0,1,6,3,0,0,0,0,6
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,FC Barcelona,Real Madrid,home,2,2,Manu Herrera,FB,90,60,49,39,6,5,1,1,0,0,0,0,6,7,1,0,4,3,5,2,2,0,0,0,14
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,FC Barcelona,Girona FC,away,4,0,Sergi Nogales,CB,90,76,68,60,7,0,1,1,0,0,0,0,12,2,7,2,6,1,3,2,0,0,0,0,11
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Getafe CF,Real Madrid,away,0,9,Erik Otero,ST,68,26,11,7,3,1,3,3,0,0,0,0,4,5,3,1,2,0,6,0,0,4,0,0,5
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Real Madrid,Getafe CF,home,9,0,Unai Arrieta,ST,90,45,26,19,3,1,9,1,5,3,1,0,6,6,3,1,2,0,3,0,1,5,1,0,26
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,FC Barcelona,Girona FC,away,4,0,Arnau Herrera,GK,90,50,41,37,4,0,1,1,0,0,0,0,2,1,1,2,0,0,5,1,0,0,0,0,5
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,Getafe CF,RCD Espanyol,home,1,2,Nico Vidal,CM,90,58,44,39,7,0,0,0,0,0,0,0,10,8,3,3,7,3,6,7,0,4,0,0,10
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,FC Barcelona,Getafe CF,away,3,1,Mateo Andrade,CB,25,22,20,18,3,0,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,3
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,FC Barcelona,Girona FC,away,4,0,Diego Solano,ST,90,46,18,15,5,1,9,4,8,5,0,0,4,4,5,3,1,0,4,0,1,2,0,0,9
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,Getafe CF,FC Barcelona,home,1,3,Mateo Ferrer,CM,90,49,39,33,5,1,6,1,0,0,0,0,8,2,0,2,2,2,3,0,0,2,0,0,12
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,atletico madrid,FC Barcelona,away,1,2,Samuel Puig,CB,90,59,47,42,1,0,0,0,0,0,0,0,6,5,4,4,4,1,12,7,0,0,0,0,5
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,Girona FC,FC Barcelona,home,0,4,Pablo Ruiz,W,60,19,13,11,2,0,4,2,0,0,0,0,2,6,0,1,1,0,3,0,1,1,0,0,5
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Girona FC,Real Madrid,home,0,3,Hugo Andrade,CM,90,55,37,30,6,2,2,0,1,0,0,0,6,4,3,1,4,3,8,1,0,1,1,0,10
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Real Madrid,Girona FC,away,3,0,Roque Vega,FB,57,44,33,25,5,1,2,1,1,0,0,0,5,2,1,2,3,0,7,1,0,0,1,0,12
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Real Madrid,Girona FC,away,3,0,Roque Bermejo,CM,90,118,104,98,6,3,4,4,2,0,0,0,8,2,0,0,0,1,7,0,0,2,0,0,7
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,atletico madrid,FC Barcelona,away,1,2,Bruno Sastre,CM,90,44,40,33,9,0,0,0,1,0,0,0,4,3,1,3,3,2,5,0,1,3,0,0,10
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Girona FC,Atletico Madrid,away,2,2,Samuel Cordero,W,90,34,21,16,3,1,4,2,2,2,1,0,6,9,1,3,1,0,6,0,0,3,0,0,9
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,FC Barcelona,Real Madrid,home,2,2,Pablo Rivas,ST,22,12,6,4,3,0,2,0,0,0,0,1,7,2,0,0,0,0,2,0,0,0,0,0,6
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,Getafe CF,RCD Espanyol,home,1,2,Kike Andrade,GK,90,21,14,11,2,0,0,0,0,0,0,0,2,0,0,1,0,1,0,3,0,0,0,0,4
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,Getafe CF,FC Barcelona,home,1,3,Javi Quintana,W,68,26,20,17,3,1,3,2,0,0,0,1,,6,2,2,1,1,3,0,1,2,0,0,7
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,RCD Espanyol,Girona FC,home,3,1,Iker Rivas,CB,90,29,11,8,1,0,1,1,0,0,0,0,8,4,2,1,1,3,7,6,0,2,0,0,8
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Atletico Madrid,Girona FC,home,2,2,Bruno Sastre,CM,90,125,111,104,5,1,3,2,5,1,0,1,11,6,2,1,4,4,4,0,2,1,0,0,12
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Girona FC,Real Madrid,home,0,3,Pablo Yuste,CB,90,48,39,34,0,0,0,0,0,0,0,0,2,9,6,3,3,3,6,1,2,2,0,0,7
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,FC Barcelona,Girona FC,away,4,0,Arnau Fuster,CM,90,81,52,49,6,5,2,2,7,1,1,0,8,6,0,2,1,2,14,0,3,2,0,0,5
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,FC Barcelona,Real Madrid,away,1,1,Sergi Cordero,FB,90,50,35,27,12,1,5,1,0,0,0,0,3,6,2,0,1,1,10,4,0,2,0,0,15
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,Real Madrid,RCD Espanyol,home,3,1,Unai Puig,CB,90,68,52,49,5,0,1,1,2,0,0,0,9,3,7,3,2,5,3,5,1,1,0,0,6
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,Getafe CF,RCD Espanyol,home,1,2,Alvaro Moliner,CM,78,43,33,30,2,0,4,2,1,0,0,0,2,7,1,2,2,1,5,0,1,0,1,0,9
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,FC Barcelona,Real Madrid,away,1,1,Teo Ferrer,CM,25,28,23,20,1,0,1,0,1,1,0,0,2,0,0,2,2,0,4,0,0,0,0,0,5
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,FC Barcelona,Getafe CF,away,3,1,Asier Rojas,W,90,67,47,41,6,7,5,5,3,3,0,0,8,3,0,4,0,0,2,0,0,5,0,0,13
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Real Madrid ,Atletico Madrid,home,1,0,Ignacio Lozano,CM,65,70,51,43,5,0,3,2,1,0,0,0,3,4,1,1,2,0,5,2,3,0,0,0,9
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,Getafe CF,RCD Espanyol,home,1,2,Arnau Serrano,FB,90,53,41,33,5,1,2,1,3,0,0,0,3,1,4,2,2,3,5,3,3,2,0,0,9
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,Real Madrid,FC Barcelona,home,1,1,Samuel Alonso,CB,60,30,18,17,6,0,0,0,1,1,0,0,8,5,1,3,2,1,6,7,0,0,0,0,4
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Real Madrid ,Atletico Madrid,home,1,0,Arnau Peralta,W,33,25,15,13,2,1,3,0,1,0,0,0,0,1,0,1,2,0,1,0,0,1,0,0,6
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Atletico Madrid,Getafe CF,home,2,0,Bruno Serrano,FB,4,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,Real Madrid,FC Barcelona,away,2,2,Dani Ibarra,FB,90,66,49,38,3,2,3,3,2,0,0,0,3,2,1,2,4,0,11,5,0,1,0,0,13
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Real Madrid,Girona FC,away,3,0,Biel Otero,CM,90,142,114,107,12,2,4,3,5,1,0,1,5,2,3,0,4,1,11,0,1,1,0,0,15
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,Girona FC,RCD Espanyol,away,1,3,Manu Barrios,CB,78,72,60,56,13,0,2,1,0,0,0,0,5,2,4,1,0,0,2,3,0,1,0,0,6
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,FC Barcelona,Atletico Madrid,home,2,1,Erik Moliner,CM,90,137,124,115,5,0,3,2,3,2,1,0,9,4,2,0,4,6,3,0,0,0,0,0,14
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,FC Barcelona,Real Madrid,home,2,2,Cesar Herrera,CM,68,86,76,69,7,1,4,3,0,0,0,0,5,9,0,1,1,1,7,1,2,1,0,0,9
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,RCD Espanyol,Getafe CF,away,2,1,Gonzalo Marin,CM,60,50,43,40,11,0,2,2,0,0,0,0,7,2,0,0,4,2,1,0,1,3,0,0,4
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,Real Madrid,FC Barcelona,home,1,1,Roque Moliner,W,18,5,0,0,0,0,3,1,0,0,0,0,2,1,0,0,0,1,2,0,1,1,0,0,2
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,Getafe CF,FC Barcelona,home,1,3,Adrian Bermejo,FB,22,7,5,4,2,0,0,0,0,0,0,0,0,3,0,0,0,0,2,0,0,0,0,0,1
+M-1506,2026-04-19,Liga Cadete,U15,Atletico Madrid,Girona FC,Girona FC,Atletico Madrid,away,2,2,Pablo Salas,FB,90,39,29,22,5,1,3,0,0,0,0,0,7,7,0,1,5,1,5,5,2,1,0,0,16
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,RCD Espanyol,Real Madrid,away,1,3,Ignacio Puig,W,33,21,12,9,2,0,5,2,1,1,0,0,4,5,1,0,1,2,5,0,1,0,0,0,7
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Girona FC,Real Madrid,home,0,3,Diego Ruiz,ST,90,22,12,9,1,1,1,1,2,2,0,0,7,12,3,6,0,1,1,0,1,1,0,0,3
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,FC Barcelona,Girona FC,away,4,0,Pablo Roldan,W,90,53,29,24,5,7,4,4,7,3,2,0,5,5,2,0,2,1,4,0,0,1,0,0,10
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,RCD Espanyol,Getafe CF,away,2,1,Mateo Herrera,FB,90,55,40,36,12,5,3,2,1,1,0,0,6,2,3,1,4,1,2,3,2,2,0,0,17
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,FC Barcelona,Atletico Madrid,home,2,1,Javi Cabrera,FB,90,56,43,34,3,3,5,0,1,0,0,0,8,9,2,2,1,0,9,0,1,2,0,0,21
+M-1704,2026-04-04,Liga Nacional Juvenil,U17,Atletico Madrid,Getafe CF,Atletico Madrid,Getafe CF,home,2,0,Cesar Roldan,ST,30,23,12,10,1,1,0,0,2,2,0,0,0,3,0,2,1,0,2,2,0,1,0,0,2
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,RCD Espanyol,Girona FC,home,3,1,Adrian Quintana,CB,90,42,31,25,7,0,1,1,1,0,0,0,14,1,3,2,2,3,6,5,1,2,0,0,10
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,RCD Espanyol,Real Madrid,away,1,3,Pau Vidal,GK,90,27,17,15,3,0,0,0,0,0,0,0,3,1,0,0,0,2,6,3,1,0,0,0,7
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,FC Barcelona,Getafe CF,away,3,1,Sergi Nogales,CB,90,65,38,33,15,1,2,1,0,0,0,0,6,1,5,1,1,2,8,2,0,0,0,0,8
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,RCD Espanyol,Getafe CF,away,2,1,Martin Roldan,W,72,58,39,32,2,2,3,3,8,0,0,0,8,3,1,2,0,1,5,0,2,5,0,0,11
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,RCD Espanyol,Girona FC,home,3,1,Hugo Puig,FB,65,62,58,52,2,1,1,1,0,0,0,0,3,4,1,1,5,0,5,0,0,0,0,0,11
+M-1502,2026-03-22,Liga Cadete,U15,Real Madrid,Getafe CF,Getafe CF,Real Madrid,away,0,9,Manu Rivas,W,33,17,14,10,3,0,1,0,2,0,0,0,3,3,0,0,0,0,0,0,1,0,0,0,6
+M-1504,05/04/2026,Liga Cadete,U15,Girona FC,Real Madrid,Real Madrid,Girona FC,away,3,0,Unai Arrieta,ST,90,27,14,10,3,2,4,2,2,2,1,1,9,4,0,0,0,0,1,1,1,5,0,0,10
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,RCD Espanyol,Getafe CF,away,2,1,Roque Ferrer,CB,90,60,47,44,5,0,1,0,0,0,0,0,8,2,2,0,4,1,3,5,1,1,0,0,9
+M-1705,11/04/2026,Liga Nacional Juvenil,U17,RCD Espanyol,Girona FC,RCD Espanyol,Girona FC,home,3,1,Pau Vidal,GK,90,43,32,26,1,0,1,1,0,0,0,0,0,4,0,2,0,0,3,3,0,2,0,0,9
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,Real Madrid,RCD Espanyol,home,3,1,Dani Vidal,FB,18,9,4,4,1,1,3,3,0,0,0,1,6,0,0,0,0,0,0,0,1,0,0,0,1
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,RCD Espanyol,Getafe CF,away,2,1,Gonzalo Peralta,CM,90,109,87,78,13,3,4,3,1,1,1,0,5,2,0,1,0,2,13,1,4,1,0,0,14
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,FC Barcelona,Real Madrid,away,1,1,Pablo Campos,CB,90,86,61,50,6,1,0,0,0,0,0,0,9,2,2,1,6,3,7,6,2,3,0,0,18
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,RCD Espanyol,Real Madrid,away,1,3,Hugo Puig,FB,90,27,20,17,14,2,1,1,1,1,1,0,5,9,5,1,2,3,1,1,1,3,0,0,4
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,FC Barcelona,Real Madrid,away,1,1,Ignacio Carrasco,W,57,24,13,10,5,6,6,4,2,0,0,0,2,2,1,1,3,1,0,1,0,2,0,0,8
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,RCD Espanyol,Getafe CF,away,2,1,Alvaro Nogales,CB,90,85,70,66,7,0,1,1,0,0,0,0,12,4,5,2,2,3,9,1,0,0,0,0,4
+M-1702,2026-03-21,Liga Nacional Juvenil,U17,Real Madrid,RCD Espanyol,RCD Espanyol,Real Madrid,away,1,3,Pablo Vega,W,90,28,20,16,3,1,0,0,1,0,0,0,2,6,2,1,4,0,5,0,1,4,0,0,4
+M-1701,2026-03-14,Liga Nacional Juvenil,U17,FC Barcelona,Real Madrid,Real Madrid,FC Barcelona,away,2,2,Arnau Peralta,W,12,3,2,1,0,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,0,1,0,0,2
+M-1501,2026-03-14,Liga Cadete,U15,Real Madrid,FC Barcelona,FC Barcelona,Real Madrid,away,1,1,Bruno Cabrera,GK,90,39,23,18,2,0,1,0,0,0,0,0,0,2,1,1,1,1,6,7,0,0,0,0,6
+M-1503,2026-03-29,Liga Cadete,U15,FC Barcelona,Atletico Madrid,atletico madrid,FC Barcelona,away,1,2,Sergi Alonso,CB,90,69,49,40,2,0,0,0,0,0,0,0,11,5,5,4,3,2,3,9,1,0,0,0,10
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,Girona FC,FC Barcelona,home,0,4,Dani Cuesta,CM,90,64,50,44,6,0,1,1,3,0,0,0,7,11,1,2,3,3,9,3,2,1,0,0,6
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Atletico Madrid,Real Madrid,away,0,1,Mateo Otero,,60,38,31,29,8,0,1,1,0,0,0,0,4,4,1,2,2,4,4,0,2,1,0,0,5
+M-1707,2026-04-25,Liga Nacional Juvenil,U17,Real Madrid,Atletico Madrid,Atletico Madrid,Real Madrid,away,0,1,Arnau Vega,CM,72,71,59,55,4,0,2,1,1,0,0,0,6,4,5,2,0,3,10,0,2,3,0,0,9
+M-1703,2026-03-28,Liga Nacional Juvenil,U17,Girona FC,FC Barcelona,Girona FC,FC Barcelona,home,0,4,Marc Mena,W,30,10,7,5,0,2,1,0,0,0,0,0,2,3,0,0,0,0,4,0,0,0,0,0,3
+M-1706,2026-04-18,Liga Nacional Juvenil,U17,Getafe CF,FC Barcelona,Getafe CF,FC Barcelona,home,1,3,Nico Moliner,W,72,39,27,21,8,0,8,1,1,0,0,0,4,2,3,1,0,3,0,1,0,2,0,0,15
+M-1505,2026-04-12,Liga Cadete,U15,Getafe CF,RCD Espanyol,Getafe CF,RCD Espanyol,home,1,2,Bruno Bermejo,CB,90,36,28,25,0,0,0,0,1,0,0,0,2,4,6,3,0,3,6,1,3,0,0,0,3
