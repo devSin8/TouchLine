@@ -47,7 +47,7 @@ The formula follows `Player rating system.txt`:
 - Position weights combine those pillars for ST, W, CM, FB and CB; the penalty is subtracted. Player raw scores are averaged across appearances weighted by minutes, then converted to a percentile among rated players in the same age group. Ties share their midpoint rank.
 - Pillar percentiles use same-age-group, same-position peers.
 
-The formula sheet does not provide weights for GK or missing positions. Those players remain searchable with their raw stats and match history, but are labeled **Unrated** and are excluded from rated-player percentiles. The CSV contains one missing position and 26 GK appearances. The source has 365 rows, 184 distinct player/team/age-group identities, and mixed date formats; imported dates are normalized to ISO.
+The formula sheet does not provide weights for GK or missing positions. Those players remain searchable with their raw stats and match history, but are labeled **Unrated** and are excluded from rated-player percentiles. The CSV contains one missing position and 26 GK appearances. The source has 365 rows, 184 distinct player/team/age-group identities, and mixed date formats; imported dates are normalized to ISO. One player-match row is duplicated exactly in the supplied CSV, so the importer skips that duplicate and stores 364 unique appearances.
 
 The percentile is the comparable headline rating. Match scores are shown as raw formula composites because the supplied formula does not define a conversion to a 1–10 scale. This model does not adjust for opponent strength, team context or data-provider quality, and small cohorts can move percentiles substantially.
 

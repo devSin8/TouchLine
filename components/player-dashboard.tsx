@@ -41,7 +41,8 @@ export function PlayerDashboard({ players }: { players: Player[] }) {
       const response = await fetch("/api/import", { method: "POST", body: form });
       const result = await response.json();
       if (!response.ok) throw new Error(result.error ?? "Import failed.");
-      setUploadState(`Imported ${format(result.rows)} player match records. Refreshing ratings…`);
+      const duplicateNote = result.duplicatesSkipped ? ` (${result.duplicatesSkipped} exact duplicate skipped)` : "";
+      setUploadState(`Imported ${format(result.rows)} player match records${duplicateNote}. Refreshing ratings…`);
       window.location.reload();
     } catch (error) {
       setUploadState(error instanceof Error ? error.message : "Could not import this CSV.");
